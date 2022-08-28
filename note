@@ -1,0 +1,78 @@
+                          Node- Server/back end technology
+
+
+                                   basic commands
+
+
+                            1.create package.json - npm init
+
+                            2.install express - npm i express
+
+                            3.install nodemon - npm i -g nodemon
+
+                            4. install jwt token-npm i jsonwebtoken
+
+                            5.to compile - nodemon index.js
+
+                            6. install mongoose - npm i mongoose
+
+                            7.install cors-npm i cors
+
+
+
+
+
+
+
+                                   basic steps
+
+                            1. create package.json
+
+                            2.install express
+
+                            3.create index.js file
+
+                            4.import express
+
+                            5.create Server app using express
+
+                            6.set a port number for Server
+
+                            7.client HTTP request resolving
+                               syntax : Server-app.HTTP-request(path,callback)
+
+                            8. response status code
+                               1xx-information
+                               2xx-success
+                               3xx-redirection
+                               4xx-client side error
+                               5xx-Server side error
+
+
+
+                            9.import jsonwebtoken
+
+                               9.1 jwt token-user validation
+                               
+                                 9.1.1 token generation -sign()
+                                 9.1.2 token verify-verify()
+
+
+
+                           10.middleware - 
+                               10.1 application specific
+                               10.2 router specific
+
+                           11.mongo db connection
+                             11.1 install mongoose
+                             11.2 create db.js file
+                             11.3.import mongoose in db.js
+                             11.4.state connection string using mongoose
+                             11,5.create model/collection
+                             11.6.export model
+
+                           12. asynchronous function resolving- promise
+                               12.1 resolved state- .then()
+                               12.2 reject state- catch()---error
+
+                           13.CORS-cross origin resource sharing
