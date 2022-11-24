@@ -39,7 +39,7 @@ const db = require('./db')
             transaction:[]    //objects defined
     
 
-          })
+          })                                                                                                              
           newUser.save()    //to store in mongodb---newUser will be automatically save to mongodb or else it will only created in servers mongoose
           return{
             status:true,
